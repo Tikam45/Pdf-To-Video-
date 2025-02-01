@@ -6,6 +6,8 @@ from moviepy.editor import concatenate_videoclips, TextClip, AudioFileClip, Comp
 from gtts import gTTS
 import google.generativeai as genai
 import fitz  # PyMuPDF
+GOOGLE_API_KEY = ''
+
 
 user_pdf_path = "C:/Users/91805/Downloads/ternary.pdf"
 
@@ -17,7 +19,7 @@ def extract_text_from_pdf(pdf_path):  # Use a correct parameter name
             text += page.extract_text()  # Extract text from each page
     return text
 
-# Example usage
+
 pdf_path = user_pdf_path
 text = extract_text_from_pdf(pdf_path)
 
@@ -101,7 +103,7 @@ for image_path in image_paths:
 # print("text", final_summary)
 # text = final_summary
 
-GOOGLE_API_KEY = 'AIzaSyBuKJHMBH8ATZIE4SDuup1MwDN6Lpqhexg'
+
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Define the summarization function
