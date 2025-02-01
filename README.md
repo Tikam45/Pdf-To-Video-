@@ -14,7 +14,7 @@ Export Options: Outputs videos in various resolutions and formats
 # Installation
 
 Step 1: Clone the Repository
-git clone https://github.com/yourusername/text-to-video.git
+git clone https://github.com/Tikam45/text-to-video.git
 
 Step 2: Navigate to the Project Directory
 
