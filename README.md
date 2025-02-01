@@ -32,3 +32,5 @@ Usage
 
 Run the Application:
 source.py
+
+# Put your Gemini Api key in keys.py folder
