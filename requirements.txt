@@ -1,0 +1,6 @@
+pdfplumber 
+transformers 
+moviepy==1.0.3
+gtts 
+google-generativeai 
+pymupdf
