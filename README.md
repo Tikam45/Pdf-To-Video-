@@ -25,6 +25,7 @@ Remember to install moviepy for version:  pip install moviepy==1.0.3
 
 
 Step 4: Install ImageMagick (Required for moviepy)
+Step 5: Make sure to download Ffmpeg from the official website
 
 Download and install ImageMagick: ImageMagick Download
 
